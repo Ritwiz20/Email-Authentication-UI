@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+*{ padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+}
+
+.main{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.wrapper1{
+    height: 680px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    box-shadow: 0px 0px 10px black;
+    margin: 100px; 
+}
+
+.svg_send{
+    margin: 8px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+
+.para1{
+    padding: 10px;
+    margin: 15px;
+
+}
+.para1 h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.para1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.verification1 {
+    display: flex;
+    flex-direction: column;
+    width:430px;
+    padding: 5px;
+}
+.verification1 p{
+    padding: 10px;
+    font-size: 18px;
+}
+.verification1 input{
+    padding: 7px;
+    margin-bottom: 10px;
+    border:1px solid  #0f84cc ;
+    cursor: auto;
+}
+.verification1 input:focus{
+    outline: none;
+}
+.verification1 button{
+    padding: 7px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background-color: #2961d1;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.ano_code{
+    margin-top: 10px;
+    padding: 4px;
+}
+.ano_code p{
+    color: #0f84cc;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.end1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 3px;
+    margin-top: 8px;
+}
+.end1 p{
+    color: #0f84cc;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.end1 .arrow{
+    margin-left: 5px;
+    margin-top: 2px;
+    cursor: pointer;
+}
