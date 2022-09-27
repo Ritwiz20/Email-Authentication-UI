@@ -2,7 +2,7 @@ import {Verify , Send } from './components';
 function App() {
   return (
     <div className="App">
-    {/* <Verify /> */}
+    <Verify />
     <Send />
     </div>
   );
